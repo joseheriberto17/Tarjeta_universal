@@ -1,62 +1,62 @@
 {
-  "configurations": [
-      {
-          "name": "SAM3X8E",
-          "includePath": [
-              "${workspaceFolder}/Tarjeta_universal/src",
-              "${workspaceFolder}/Tarjeta_universal/src/config",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/common/boards",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/common/services/clock",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/common/services/clock/sam3x",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/common/services/gpio",
-            //   "${workspaceFolder}/Tarjeta_universal/src/ASF/common/services/delay",
-            //   "${workspaceFolder}/Tarjeta_universal/src/ASF/common/services/delay/sam",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/common/services/ioport",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/common/utils",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/common/utils/interrupt",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/boards",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/drivers/pio",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/drivers/pmc",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/drivers/tc",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/drivers/uart",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/drivers/pwm",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/cmsis",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/include",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/include/component",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/include/instance",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/include/pio",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/source",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/source/templates",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/source/templates/gcc",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/header_files",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/preprocessor",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/syscalls",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/sam/utils/syscalls/gcc",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/thirdparty/CMSIS/Include",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/thirdparty/CMSIS/Lib",
-              "${workspaceFolder}/Tarjeta_universal/src/ASF/thirdparty/CMSIS/Lib/GCC"
-          ],
-          "defines": [
-              "__SAM3X8E__",
-              "DEBUG",
-              "BOARD=ARDUINO_DUE_X",
-              "scanf=iscanf",
-              "printf=iprintf",
-              "ARM_MATH_CM3=true"
-          ],
-          "compilerPath": "C:/Program Files (x86)/Atmel/Studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/arm-none-eabi-gcc.exe",
-          "cStandard": "gnu99",
-          "cppStandard": "c++11",
-          "intelliSenseMode": "gcc-arm",
-          "browse": {
-              "path": [
-                  "${workspaceFolder}/Tarjeta_universal/src"
-              ],
-              "limitSymbolsToIncludedHeaders": true
-          }
-      }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "SAM3X8E",
+            "includePath": [
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/config",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/boards",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/services/clock",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/services/clock/sam3x",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/services/gpio",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/services/ioport",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/utils",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/utils/interrupt",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/boards",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/drivers/pio",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/drivers/pmc",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/drivers/tc",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/drivers/uart",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/drivers/pwm",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/cmsis",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/include",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/include/component",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/include/instance",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/include/pio",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/source",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/source/templates",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x/source/templates/gcc",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/header_files",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/preprocessor",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/syscalls",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/syscalls/gcc",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/thirdparty/CMSIS/Include",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/thirdparty/CMSIS/Lib",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/thirdparty/CMSIS/Lib/GCC",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/services/twi",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/drivers/twi"
+            ],
+            "defines": [
+                "__SAM3X8E__",
+                "DEBUG",
+                "BOARD=ARDUINO_DUE_X",
+                "scanf=iscanf",
+                "printf=iprintf",
+                "ARM_MATH_CM3=true"
+            ],
+            "compilerPath": "C:/Program Files (x86)/Atmel/Studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "gnu99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
 }
