@@ -51,6 +51,7 @@ extern uint32_t _estack;
 
 /** \cond DOXYGEN_SHOULD_SKIP_THIS */
 int main(void);
+void Print_uart(uint8_t cmd_lenght, uint8_t buf[8]);
 /** \endcond */
 
 void __libc_init_array(void);

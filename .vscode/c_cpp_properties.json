@@ -10,6 +10,7 @@
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/services/clock/sam3x",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/services/gpio",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/services/ioport",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/services/twi",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/utils",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/utils/interrupt",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/boards",
@@ -18,6 +19,7 @@
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/drivers/tc",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/drivers/uart",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/drivers/pwm",
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/drivers/twi",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/cmsis",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/cmsis/sam3x",
@@ -32,11 +34,9 @@
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/preprocessor",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/syscalls",
                 "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/utils/syscalls/gcc",
-                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/thirdparty/CMSIS/Include",
-                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/thirdparty/CMSIS/Lib",
-                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/thirdparty/CMSIS/Lib/GCC",
-                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/common/services/twi",
-                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/sam/drivers/twi"
+                "${workspaceFolder}/Tarjeta_universal_firmware/Tarjeta_universal/src/ASF/thirdparty/CMSIS/Include"
+                
+                
             ],
             "defines": [
                 "__SAM3X8E__",

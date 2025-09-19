@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../.."
+		},
+		{
+			"path": "../../../../../../../../../../repositorios/learn_C"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"pwm.h": "c",
+			"oled_ssd1306.h": "c",
+			"compiler.h": "c",
+			"preprocessor.h": "c",
+			"stdbool.h": "c",
+			"stddef.h": "c",
+			"uart_custom.h": "c",
+			"asf.h": "c",
+			"ssd1306.h": "c",
+			"ssd1306_cmd.h": "c"
+		}
+	}
+}

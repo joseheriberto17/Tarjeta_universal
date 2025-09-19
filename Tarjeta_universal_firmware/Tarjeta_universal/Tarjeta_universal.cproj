@@ -228,7 +228,7 @@
       </ToolNumber>
       <ToolName xmlns="">Custom Programming Tool</ToolName>
     </custom>
-    <CustomProgrammingToolCommand>C:\Users\omard\AppData\Local\Arduino15\packages\arduino\tools\bossac\1.6.1-arduino\bossac.exe -p COM3 -e -w -v -b "C:\Users\omard\OneDrive\Documents\Atmel Studio\7.0\Tarjeta_universal\Tarjeta_universal\Debug\Tarjeta_universal.bin</CustomProgrammingToolCommand>
+    <CustomProgrammingToolCommand>C:\Users\omard\AppData\Local\Arduino15\packages\arduino\tools\bossac\1.6.1-arduino\bossac.exe -p COM3 -e -w -v -b "C:\Users\omard\OneDrive\Documents\Atmel Studio\7.0\Tarjeta_universal\Tarjeta_universal_firmware\Tarjeta_universal\Debug\Tarjeta_universal.bin"</CustomProgrammingToolCommand>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
@@ -520,6 +520,12 @@
     <Folder Include="src\ASF\thirdparty\CMSIS\Lib\" />
     <Folder Include="src\ASF\thirdparty\CMSIS\Lib\GCC\" />
     <Folder Include="src\config\" />
+    <Folder Include="src\Driver" />
+    <Folder Include="src\Driver\Display\OLED" />
+    <Folder Include="src\Driver\Display\OLED\SSD1306" />
+    <Folder Include="src\Driver\Encoder" />
+    <Folder Include="src\Driver\Display" />
+    <Folder Include="src\Driver\Uart" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\ASF\common\services\twi\twi_slave.h">
@@ -540,19 +546,28 @@
     <None Include="src\ASF\sam\drivers\twi\twi.h">
       <SubType>compile</SubType>
     </None>
-    <Compile Include="src\encoder.h">
+    <Compile Include="src\Driver\Display\OLED\SSD1306\SSD1306.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\OLED_SSD1306.c">
+    <Compile Include="src\Driver\Display\OLED\SSD1306\SSD1306.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\OLED_SSD1306.h">
+    <Compile Include="src\Driver\Display\OLED\SSD1306\SSD1306_cmd.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\uart_custom.c">
+    <Compile Include="src\Driver\Display\OLED\SSD1306\SSD1306_cmd.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\uart_custom.h">
+    <Compile Include="src\Driver\Encoder\encoder.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Driver\Encoder\encoder.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Driver\Uart\uart_custom.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Driver\Uart\uart_custom.h">
       <SubType>compile</SubType>
     </Compile>
     <None Include="src\asf.h">
@@ -991,9 +1006,6 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\ASF\sam\utils\syscalls\gcc\syscalls.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="src\encoder.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\main.c">
